@@ -1,0 +1,12 @@
+Source: ros-indigo-webrtc-ros
+Section: misc
+Priority: extra
+Maintainer: Timo Röhling <timo.roehling@fkie.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-async-web-server-cpp, ros-indigo-catkin, ros-indigo-cv-bridge, ros-indigo-image-transport, ros-indigo-nodelet, ros-indigo-roscpp, ros-indigo-webrtc (>= 59.0.0)
+Homepage: http://wiki.ros.org/webrtc_ros
+Standards-Version: 3.9.2
+
+Package: ros-indigo-webrtc-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-async-web-server-cpp, ros-indigo-cv-bridge, ros-indigo-image-transport, ros-indigo-nodelet, ros-indigo-roscpp, ros-indigo-webrtc (>= 59.0.0)
+Description: A collection of ROS utilities for using WebRTC with ROS
