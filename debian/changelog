@@ -1,8 +1,0 @@
-ros-kinetic-webrtc (59.0.0-0xenial) xenial; urgency=high
-
-  * Revival release
-  * Upgrade to WebRTC Native API version 59
-
- -- Timo Röhling <timo.roehling@fkie.fraunhofer.de>  Thu, 17 Jan 2019 23:00:00 -0000
-
-
