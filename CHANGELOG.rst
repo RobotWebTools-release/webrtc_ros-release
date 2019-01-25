@@ -2,6 +2,10 @@
 Changelog for package webrtc_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+59.0.3 (2019-01-25)
+-------------------
+* No changes
+
 59.0.2 (2019-01-24)
 -------------------
 * Do not install files outside the package source folder
