@@ -1,0 +1,12 @@
+Source: ros-melodic-webrtc
+Section: misc
+Priority: extra
+Maintainer: Timo Röhling <timo.roehling@fkie.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), cmake, git, libasound2-dev, libglib2.0-dev, libgtk-3-dev, libgtk2.0-dev, libpulse-dev, wget
+Homepage: http://wiki.ros.org/webrtc
+Standards-Version: 3.9.2
+
+Package: ros-melodic-webrtc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libasound2-dev, libglib2.0-dev, libgtk-3-dev, libgtk2.0-dev, libpulse-dev
+Description: WebRTC Native API
