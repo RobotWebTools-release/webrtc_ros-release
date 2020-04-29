@@ -1,0 +1,12 @@
+Source: ros-melodic-webrtc-ros
+Section: misc
+Priority: optional
+Maintainer: Timo Röhling <timo.roehling@fkie.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-async-web-server-cpp, ros-melodic-catkin, ros-melodic-cv-bridge, ros-melodic-image-transport, ros-melodic-message-generation, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-webrtc (>= 59.0.0)
+Homepage: http://wiki.ros.org/webrtc_ros
+Standards-Version: 3.9.2
+
+Package: ros-melodic-webrtc-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-async-web-server-cpp, ros-melodic-cv-bridge, ros-melodic-image-transport, ros-melodic-message-runtime, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-webrtc (>= 59.0.0)
+Description: A collection of ROS utilities for using WebRTC with ROS
